@@ -1,5 +1,5 @@
 {
-    "name": "validate-phone-number",
+    "name": "validate-phone",
     "description": "Given an international phone number, validates it while returning country information.",
     "version": "0.0.0",
     "license": "Zlib",
