@@ -1,0 +1,26 @@
+{
+    "name": "validate-phone-number",
+    "description": "",
+    "version": "0.0.0",
+    "license": "Zlib",
+    "main": "dist/index.js",
+    "type": "module",
+    "homepage": "https://github.com/vsnthdev/validate-phone-number#readme",
+    "bugs": "https://github.com/vsnthdev/validate-phone-number/issues",
+    "author": {
+        "name": "Vasanth Srivatsa",
+        "email": "hey@vsnth.dev",
+        "url": "https://vsnth.dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vsnthdev/validate-phone-number.git"
+    },
+    "engines": {
+        "node": ">=17.8.0"
+    },
+    "scripts": {
+        "dev": "tsc --watch",
+        "build": "rimraf ./dist && tsc --incremental false"
+    }
+}
