@@ -1,6 +1,6 @@
 {
     "name": "validate-phone-number",
-    "description": "",
+    "description": "Given an international phone number, validates it while returning country information.",
     "version": "0.0.0",
     "license": "Zlib",
     "main": "dist/index.js",
@@ -22,5 +22,10 @@
     "scripts": {
         "dev": "tsc --watch",
         "build": "rimraf ./dist && tsc --incremental false"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.2",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.2.2"
     }
 }
